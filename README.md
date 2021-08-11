@@ -5,28 +5,34 @@
 ***
 <h2> #1. 프로젝트 소개 </h2> 
 
-- 프로젝트 목적  
+ - Background
  <p>수 많은 동아리 중에서 나에게 딱 맞는 동아리를 찾고 싶다!! </p>
+ 
+ 주제 선정 배경 : 중앙동아리, 애기능동아리, 단과대동아리마다 홍보, 정보전달의 플랫폼이 달라 한번에 동아리를 찾아볼 수 없음 
+ 		+ 에브리타임, 고파스 등 교내 커뮤니티의 홍보게시판 외의 동아리의 공식적인 정보를 얻을 플랫폼의 부재
+		+ 홍보게시판을 독점하는 일부 인지도 있는 동아리 외 다른 동아리들은 사용자가 알기 힒듬(다양성 부재)
+		
+		----> 동아리 연합회와 함께 동아리의 공식적인 홍보물과 실질적인 정보를 수집하고, 추천알고리즘을 통해 사용자에게 다양한 동아리 추천
+ 
+ - 프로젝트 목적 및 효과
+ 	<p>(1). 흩어져 있는 동아리에 대한 정보를 수집하여 하나의 플랫폼으로 정리한다.</p>
+	<p>(2). 원하는 동아리 탐색을 빠르게 할 수 있도록 돕는다.</p>
+	<p>(3). 평점, 동아리 특성 등 사용자 개인의 선호에 맞는 동아리를 추천한다.</p>
+	
 
-- Summary
-	<p>(1). Data Collection <br/>
-		- 은행 데이터 마트(지점데이터 + 고객데이터) + 외부데이터(금융결제원)</p>
-	<p>(2). Data Preprocessing <br/>
-		- EDA (지점데이터 + 고객데이터 + 외부데이터) <br/>
-		- Reduction (특성이 다른 지점 데이터  제거, missing value 포함한 고객데이터 제거)</p>
-	<p>(3). Model & Algorithms <br/>
-		- xgboost regression(지점 데이터) --> RMSE 작을 때 feature importance <br/>
-		- xgboost classifier(고객 데이터) --> F1 높을 때 feature importance<br/>
-		- Aggregation(고객데이터 --> 지점데이터) --> Clustering(Hierarchical, K-means, Gaussian mixture)</p>
-	<p>(4). Report <br/>
-		- 이탈에 영향을 주는 변수 목록 작성
-		- 변수 특성이 비슷한 지점끼리 클러스터링한 결과 표 작성
-	<p>(5). Review <br/>
-		- 피드백 : 클러스터링보다 나은 방법이 있지 않았을까<br/>
-		- Futher Research : 바뀌는 금융환경 ---> 모델링 반복 필요<br/>
-		&nbsp;: 통폐합이 영향을 준 고객만을 대상으로 분석 모델을 구축해야 한다
+- 프로젝트의 주요 기능
+	<p>(1). 동아리 탐색 기능<br/>
+		- 키워드를 이용한 동아리 탐색 <br/>
+		- 동아리 유사도 기반 동아리 추천(Contents-based Recommendation <br/>
+		- 동아리 선호 평점 기반 동아리 추천(Item-based Collaborative Filtering)<br/>
+		- 키워드 대분류별 2021 동아리 트랜드</p>
+	
+	<p>(2). 사용자 개인 맞춤 추천 기능 <br/>
+		- 동아리 선호 평점 기반 동아리 추천(Latent Factor Collaborative Filtering) <br/>
+		- 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘) </p>
+	
 
-*보러가기: [은행이탈률 클러스터링](https://github.com/hbkimhbkim/Portfolio_ML/blob/master/bankchurn/)*
+*보러가기: [프로토타입 구현 결과](https://github.com/hbkimhbkim/Portfolio_ML/blob/master/bankchurn/)*
       
 ***
 <h2> #2. Project - 푸드트럭 상권분석 </h2>
