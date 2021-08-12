@@ -4,8 +4,8 @@
 
 ***
 <h2> #1. 프로젝트 소개 </h2> 
- - <p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
- - <p>주제 선정 배경 </p>
+ -<p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
+ -<p>주제 선정 배경 </p>
  
 ```
  고려대학교 학생들을 대상으로 현재 교내 동아리 만족도에 대한 설문조사 수행 
@@ -85,8 +85,9 @@
 	<p>(3) 동아리 특징 설문 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 협업 -> 각 분과 대표자들을 통해 설문조사 시행<br/>
 	   - 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘), 동아리 특성 시각화에 사용<br/>
-	[동아리 시각화 확인하러 가기](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
-	   - 파일명 : practice.csv <br/>
+	[EDA 및 시각화 code](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
+	
+	   - 파일명 : practice.csv practice2.csv practice3.csv <br/>
 		
 		
 	<p>(4) 2021 KU 중앙동아리 소개집 원본 데이터 <br/>
@@ -115,7 +116,7 @@
     	- 높은 유사도를 가지는 상위 5개의 동아리 출력 및 저장 </p>
     
   	<p>(3) 검색 시 동아리 선호도 기반 유사 동아리 추천 (동아리 기준) <br/>
-	<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG"> 
+	<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG"> <br/>
     	- 협업필터링 추천 알고리즘 : 기존 사용자의 행동 정보를 분석하여, 해당 사용자와 비슷한 성향의 사용자들이 기존에 좋아했던 항목을 추천<br/>
     	- 고객 기반 vs 아이템기반 : 고객기반 협업 필터링은 메모리 사용이 크고, 타 모델보다 낮은 정확도를 가졌기 때문에 추천 모델에서 제외함(일반적으로 비슷한 고객보다 아이템을 토대로 추천하는 것이 정확도가 높기 때문)<br/>
     	- 기존 평점 데이터를 행-동아리명 , 열 - 사용자, 데이터 - 평점 값 을 가지는 데이터셋으로 변환<br/>
@@ -126,12 +127,12 @@ Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동
 
 ---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함
 ```
+
 <p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
 - Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환<br/>
 -[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
 - barplot, wordcloud 이용하여 시각화 진행</p>
-![KakaoTalk_20210807_152908747](https://user-images.githubusercontent.com/76843676/129186300-d0b6d626-f2ec-47af-9f51-3d3c549dbed4.png)
-
+<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129186939-26299d3f-2098-4f8c-94fa-9cdb5bd737d9.png">
 
 <p>(5) 사용자 선호도 기반 동아리 추천 <br/>
 - Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
