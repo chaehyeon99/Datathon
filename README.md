@@ -77,7 +77,7 @@
 	   - 수집 출처 : 2021 고려대학교 중앙동아리 소개집 <br/>
 	   - 키워드를 이용한 동아리 탐색기능, 검색 시 동아리 키워드 기반 유사동아리 추천 알고리즘에 사용<br/>
 	   
-	   - 파일명 : 동아리 정보 DB (가상).xlsx <br/>
+	   - 파일명 : 동아리 정보 DB (가상).xlsx 
 
 	<p>(2) 동아리 선호 평점 데이터 <br/>
 	   - 수집 출처 : 직접 입력<br/>
@@ -90,12 +90,12 @@
 	   - 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘), 동아리 특성 시각화에 사용<br/>
 	[EDA 및 시각화 code](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
 	
-	   - 파일명 : practice.csv practice2.csv practice3.csv <br/>
+	   - 파일명 : practice.csv practice2.csv practice3.csv 
 		
 		
 	<p>(4) 2021 KU 중앙동아리 소개집 원본 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 제공 <br/>
-	   - NLP 및 텍스트 마이닝에 사용 <br>
+	   - NLP 및 텍스트 마이닝에 사용 <br/>
 	   
 	   - 파일명 : 동아리 소개책자 정보 수합.csv	
 
@@ -114,6 +114,8 @@
  4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightbm, catboost) <br/>
  </p> 
  *보러가기: [Code](https://github.com/chaehyeon99/Datathon/tree/main/Code)*
+ 
+ 
 - Summary
 
 	<p>(1) 키워드를 이용한 동아리 탐색</br>
