@@ -4,8 +4,8 @@
 
 ***
 <h2> #1. 프로젝트 소개 </h2> 
- -<p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
- -<p>주제 선정 배경 </p>
+ <p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
+ <p>-주제 선정 배경 </p>
  
 ```
  고려대학교 학생들을 대상으로 현재 교내 동아리 만족도에 대한 설문조사 수행 
@@ -94,7 +94,8 @@
 		
 	<p>(4) 2021 KU 중앙동아리 소개집 원본 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 제공 <br/>
-	   - NLP 및 텍스트 마이닝에 사용 <br.>
+	   - NLP 및 텍스트 마이닝에 사용 <br>
+	   
 	   - 파일명 : 동아리 소개책자 정보 수합.csv	
 
 
@@ -128,25 +129,37 @@
 Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동아리 추천에 함께 사용한 이유 <br/>
 
 ---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함
+
 ```
 
-  <p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
-  - Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환<br/>
+  <p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
+  - Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환 <br/>
   -[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
-  - barplot, wordcloud 이용하여 시각화 진행</p>
-  <img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129187582-dfae0f7f-ac3a-4bcd-a20d-c22642f59b54.png">
+  - barplot, wordcloud 이용하여 시각화 진행 
+  <img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129187582-dfae0f7f-ac3a-4bcd-a20d-c22642f59b54.png"></p>
 
   <p>(5) 사용자 선호도 기반 동아리 추천 <br/>
-  - Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-  - Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
+  
+<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG">
+  - 사용한 잠재요인 기반 모델  <br/>
+   1. SVD : 동아리-사용자 평점 행렬을 분해하여 구한 Latent Factor을 통해 사용자가 평점을 내리지 않은 동아리의 평점을 예측한다<br/>
+   2. SVD ++ : SVD에 implicit feedback 까지 반영<br/>
+   3. NMF(Non-negative Matrix Factorizagion) : 행렬 분해시, 음수를 포함하지 않는 행렬이 되지 않도록 함. <br/>
+  -단순 회귀 앙상블 추천 시스템이 각 유저에게 가장 개인화된 경험을 제공할 수 있었다</p>
 
   <p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
-  - Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-  - Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
+  - train set 과 test set을 4:1 로 분리 <br/>
+  - Logistic Regression 모델 학습 및 테스트<br/>
+  - Decision Tree 모델 학습 및 테스트 <br/>
+  - KNN 모델 학습 및 테스트<br/>
+  - Weighted KNN 모델 학습 및 테스트 <br/>
+  - Random Forest 모델 학습 및 테스트 <br/>
+  - Boosting 계열 모델(gbm, adaboost, lightbm, catboost)학습 및 테스트<br/>
+  - 최종적으로 catboost 모델 accuracy는 약 0.76으로, 가장 좋은 성능을 보였다</p>
 
 
 		
-*보러가기: [감자과자시장분석](https://github.com/hbkimhbkim/Portfolio_ML/tree/master/potatosnack)*
+*보러가기: [Code](https://github.com/chaehyeon99/Datathon/tree/main/Code/)*
 
 ***
 <h2> #4. Project - 2018 러시아 월드컵 결과 예측</h2>
