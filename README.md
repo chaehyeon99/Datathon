@@ -115,7 +115,7 @@
     	- 높은 유사도를 가지는 상위 5개의 동아리 출력 및 저장 </p>
     
   	<p>(3) 검색 시 동아리 선호도 기반 유사 동아리 추천 (동아리 기준) <br/>
-<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG"> <br/>
+	<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG"> 
     	- 협업필터링 추천 알고리즘 : 기존 사용자의 행동 정보를 분석하여, 해당 사용자와 비슷한 성향의 사용자들이 기존에 좋아했던 항목을 추천<br/>
     	- 고객 기반 vs 아이템기반 : 고객기반 협업 필터링은 메모리 사용이 크고, 타 모델보다 낮은 정확도를 가졌기 때문에 추천 모델에서 제외함(일반적으로 비슷한 고객보다 아이템을 토대로 추천하는 것이 정확도가 높기 때문)<br/>
     	- 기존 평점 데이터를 행-동아리명 , 열 - 사용자, 데이터 - 평점 값 을 가지는 데이터셋으로 변환<br/>
@@ -130,7 +130,8 @@ Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동
 - Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환<br/>
 -[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
 - barplot, wordcloud 이용하여 시각화 진행</p>
-![KakaoTalk_20210807_152908747](https://user-images.githubusercontent.com/76843676/129182280-299f61ad-1d71-4929-83b3-45e68c84441b.png)
+![KakaoTalk_20210807_152908747](https://user-images.githubusercontent.com/76843676/129186300-d0b6d626-f2ec-47af-9f51-3d3c549dbed4.png)
+
 
 <p>(5) 사용자 선호도 기반 동아리 추천 <br/>
 - Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
