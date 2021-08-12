@@ -92,7 +92,7 @@
 	   - 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘), 동아리 특성 시각화에 사용<br/>
 	[EDA 및 시각화 code](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
 	
-	   - 사용한 데이터 : practice.csv practice2.csv practice3.csv 
+	   - 사용한 데이터 : practice.csv 
 		
 		
 	<p>(4) 2021 KU 중앙동아리 소개집 원본 데이터 <br/>
