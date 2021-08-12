@@ -66,7 +66,6 @@
 
   	<p>(1) 동아리 탐색 키워드 데이터 <br/>
 	   - 수집 출처 : 2021 고려대학교 중앙동아리 소개집<br/>
-	   -[보러가기](https://github.com/chaehyeon99/Datathon/blob/main/%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8F%99%EC%95%84%EB%A6%AC%20%EC%A0%95%EB%B3%B4%20DB%20(%EA%B0%80%EC%83%81).xlsx)
 
 	<p>(2) 동아리 선호 평점 데이터 <br/>
 	   - 수집 출처 : 직접 입력 <br/>
@@ -77,16 +76,9 @@
 	<p>(4) 2021 KU 중앙동아리 소개집 원본 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 제공 <br/>
 
-     - BLD 모형
-     
-      * 푸드트럭 특화 모형<br/>
-          영업장소 특성을 반영하여 아침, 점심, 저녁에 따른 이동 영업<br/>
-          아침 : 1인 가구 / 점심 : 서울시 특화 산업단지 / 저녁 : 전통 재래시장
 
-  	<p>(5). Review <br/>
-    	- 매출 데이터가 없어서 정확한 모형을 만들기 어려움
 
-*보러가기: [푸드트럭 위치추천](https://github.com/hbkimhbkim/Portfolio_ML/tree/master/foodtruck)*
+*보러가기: [사용한 데이터](https://github.com/chaehyeon99/Datathon/blob/main/%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/)*
 
 ***
 <h2> #3. Project - 감자과자 시장분석</h2>
