@@ -90,9 +90,9 @@
 	<p>(3) 동아리 특징 설문 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 협업 -> 각 분과 대표자들을 통해 설문조사 시행<br/>
 	   - 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘), 동아리 특성 시각화에 사용<br/>
-	[EDA 및 시각화 code](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
+	[EDA 및 시각화 code](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.html/) <br/>
 	
-	   - 사용한 데이터 : practice.csv 
+	   - 사용한 데이터 : practice.csv , practice2.csv , practice3.csv  
 		
 		
 	<p>(4) 2021 KU 중앙동아리 소개집 원본 데이터 <br/>
@@ -146,7 +146,7 @@
 	
 	
           - code 파일명 : Collaborative_Filtering.ipynb  
-	  - 생성된 데이터 : result_item_based
+	  - 생성된 데이터 : result_item_based.csv
 
   	<p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
   	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129189423-3bb03cf6-e342-4499-bd47-57d467ec8281.PNG"> <br/>
@@ -179,7 +179,7 @@
   	- 최종적으로 catboost 모델 accuracy는 약 0.76으로, 가장 좋은 성능을 보였다<br/>
 	
              - code 파일명 : 설문조사 분류 코드.ipynb , LogReg.R , anova.R
-	     - 생성된 데이터 : X_test, X_train, data_for_EDA, group_mean, y_test, y_train
+	     - 생성된 데이터 : X_test.csv, X_train.csv, data_for_EDA.csv , group_mean.csv, y_test.csv, y_train.csv
 
 
 		
