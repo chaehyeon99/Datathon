@@ -66,6 +66,7 @@
 
 - Background
  <p> 동아리 연합회와의 협업으로 데이터수집, Text Mining, ANOVA, python 데이터 시각화 --> 전처리 및 EDA 진행 </p>
+*보러가기: [사용한 데이터](https://github.com/chaehyeon99/Datathon/blob/main/%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/)*
 
 - Summary
 
@@ -94,7 +95,7 @@
 
 
 
-*보러가기: [사용한 데이터](https://github.com/chaehyeon99/Datathon/blob/main/%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/)*
+
 		
 
 ***
@@ -126,16 +127,16 @@ Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동
 ---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함
 
 ```
-  	<p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
-    	- jupyter notebook with R로 작성</p>
+<p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
+    - jupyter notebook with R로 작성</p>
 
-  	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
-    	- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-    	- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
+<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
+    - Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
+    - Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
 
-	<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
-    	- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-    	- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
+<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
+    - Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
+    - Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
 
 
 		
