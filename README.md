@@ -5,7 +5,8 @@
 ***
 <h2> #1. 프로젝트 소개 </h2> 
  <p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
- <p>-주제 선정 배경 </p>
+ 
+ - 주제 선정 배경 
  
 ```
  고려대학교 학생들을 대상으로 현재 교내 동아리 만족도에 대한 설문조사 수행 
@@ -58,7 +59,7 @@
 ```
 	
 
-*보러가기: [프로토타입 구현 결과](https://github.com/hbkimhbkim/Portfolio_ML/blob/master/bankchurn/)*
+*보러가기: [웹 프로토타입](https://github.com/hbkimhbkim/Portfolio_ML/blob/master/bankchurn/)*
       
 ***
 
@@ -136,11 +137,11 @@ Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동
   - Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환 <br/>
   -[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
   - barplot, wordcloud 이용하여 시각화 진행 
-  <img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129187582-dfae0f7f-ac3a-4bcd-a20d-c22642f59b54.png"></p>
+  <img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129189423-3bb03cf6-e342-4499-bd47-57d467ec8281.PNG"></p>
 
   <p>(5) 사용자 선호도 기반 동아리 추천 <br/>
   
-<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG">
+<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG"><br/>
   - 사용한 잠재요인 기반 모델  <br/>
    1. SVD : 동아리-사용자 평점 행렬을 분해하여 구한 Latent Factor을 통해 사용자가 평점을 내리지 않은 동아리의 평점을 예측한다<br/>
    2. SVD ++ : SVD에 implicit feedback 까지 반영<br/>
@@ -162,33 +163,8 @@ Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동
 *보러가기: [Code](https://github.com/chaehyeon99/Datathon/tree/main/Code/)*
 
 ***
-<h2> #4. Project - 2018 러시아 월드컵 결과 예측</h2>
+<h2> #4. 웹 프로토타입 구현</h2>
 
-- Background
- <p>Kaggle Predicting the winner of the 2018 FIFA World Cup 참고하여 진행</p>
+- 기대효과 및 발전 가능성 
 
-- Summary
-
-	<p>(1). Data Collection</br>
-    	- 수집대상 : 피파랭킹 / 공식경기기록 / 월드컵  <br/> 
-	- 수집 출처 : kaggle</p>
-    
-	<p>(2). Data Preprocessing <br/>
-    	- 형태소 저장 <br/>
-    	- 불필요한 단어 제거 </p>
-    
-  	<p>(3). Model & Algorithms <br/>
-	- Wordcloud : 빈도분석의 시각화를 위해<br>
-    	- 상관관계 : network graph를 통해 시각화<br>
-    	- graphical lasso : 추가 변수의 효과를 제어하고, 두 변수간  의 효과를 알기 위해 사용 <br>
-    	- 연관규칙 : support, confidence, lift(by apriori 알고리즘)<br>
-    	- 시계열 분석 : 검색 추세 분석
-    
-  	<p>(4). Report
-    	- jupyter notebook with R로 작성
-
-  	<p>(5). Review <br/>
-    	- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-    	- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.
-		
-*보러가기: [감자과자시장분석](https://github.com/hbkimhbkim/Portfolio_ML/tree/master/potatosnack)*
+*보러가기: [웹 프로토타입](https://github.com/hbkimhbkim/Portfolio_ML/tree/master/potatosnack)*
