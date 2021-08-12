@@ -127,19 +127,19 @@ Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동
 
 ---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함
 ```
-	<p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
-    	- Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환<br/>
-	-[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
-	- barplot, wordcloud 이용하여 시각화 진행</p>
-	![KakaoTalk_20210807_152908747](https://user-images.githubusercontent.com/76843676/129182280-299f61ad-1d71-4929-83b3-45e68c84441b.png)
+<p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
+- Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환<br/>
+-[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
+- barplot, wordcloud 이용하여 시각화 진행</p>
+![KakaoTalk_20210807_152908747](https://user-images.githubusercontent.com/76843676/129182280-299f61ad-1d71-4929-83b3-45e68c84441b.png)
 
-	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
-    	- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-    	- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
+<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
+- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
+- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
 
-	<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
-    	- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
-    	- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
+<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
+- Feedback : 크롤링, 연관규칙, 가우시안 그래프 모델 등 다양한 분석방법을 활용할 수 있어서 좋았다 <br/>
+- Futuer Research : 코드가 깔끔하지 않고, 명확한 결론을 내리지 못했다. 감성사전을 통해 감성분석을 하는게 필요해보인다.</p>
 
 
 		
