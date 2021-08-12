@@ -113,8 +113,9 @@
  3. SVD, SVD++, NMF(Non-negative Matrix Factorizagion) <br/>
  4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightbm, catboost) <br/>
  </p> 
- *보러가기: [Code](https://github.com/chaehyeon99/Datathon/tree/main/Code/)*
- *보러가기 : [생성된 데이터](https://github.com/chaehyeon99/Datathon/tree/main/%EC%83%9D%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/)*
+
+[code](https://github.com/chaehyeon99/Datathon/tree/main/Code)
+[생성된 데이터](https://github.com/chaehyeon99/Datathon/tree/main/%EC%83%9D%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0)
  
  
 - Summary
