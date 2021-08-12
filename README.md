@@ -140,7 +140,7 @@
 	---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함<br/>
 	
 	
-        - 파일명 : Collaborative_Filtering.ipynb  
+  - 파일명 : Collaborative_Filtering.ipynb  
 
   	<p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
   	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129189423-3bb03cf6-e342-4499-bd47-57d467ec8281.PNG"> <br/>
@@ -149,7 +149,7 @@
 	- barplot, wordcloud 이용하여 시각화 진행  <br/>
 	
 
-     - 파일명 : LogReg.R , anova.R , textmining.R  
+  - 파일명 : LogReg.R , anova.R , textmining.R  
 
   	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
 	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG"><br/>
@@ -159,8 +159,7 @@
    	3. NMF(Non-negative Matrix Factorizagion) : 행렬 분해시, 음수를 포함하지 않는 행렬이 되지 않도록 함. <br/>
   	-단순 회귀 앙상블 추천 시스템이 각 유저에게 가장 개인화된 경험을 제공할 수 있었다<br/>
 	
-
-   - 파일명 : Collaborative_Filtering.ipynb 
+     - 파일명 : Collaborative_Filtering.ipynb 
 
   	<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
   	- train set 과 test set을 4:1 로 분리 <br/>
