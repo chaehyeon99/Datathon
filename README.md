@@ -149,7 +149,7 @@
 	    - 생성된 데이터 : result_item_based.csv, 사용한 데이터 : contents.csv , ratings.csv
 
   	<p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
-  	<img width="168" alt="작은버전" src="https://user-images.githubusercontent.com/76843676/129231631-3a76c363-2063-478c-b95e-214b5bd5377a.PNG"> <br/>
+  	<img width="373" alt="이게 제발 최종" src="https://user-images.githubusercontent.com/76843676/129232041-a6a166ad-7dee-496e-bca1-8377e0802244.PNG"> <br/>
   	- Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환 <br/>
 	-[R] KoNLP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
 	- barplot, wordcloud 이용하여 시각화 진행  <br/>
