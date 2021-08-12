@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<!--
+	Telephasic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>CircleLens</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			
+			#myInput {
+			  background-image: url('imagess/searchicon.png');
+			  background-position: 10px 12px;
+			  background-repeat: no-repeat;
+			  width: 100%;
+			  font-size: 16px;
+			  padding: 12px 20px 12px 40px;
+			  border: 1px solid #ddd;
+			  margin-bottom: 12px;
+			}
+			
+			#myUL {
+			  list-style-type: none;
+			  padding: 0;
+			  margin: 0;
+			}
+			
+			#myUL li a {
+			  border: 1px solid #ddd;
+			  margin-top: -1px; /* Prevent double borders */
+			  background-color: #f6f6f6;
+			  padding: 12px;
+			  text-decoration: none;
+			  font-size: 18px;
+			  color: black;
+			  display: block
+			}
+			
+			#myUL li a:hover:not(.header) {
+			  background-color: #eee;
+			}
+			</style>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">CircleLens</a></h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li>
+										<a href="#">탐색하기</a>
+												
+										<ul>
+											<li>
+												<a href="#">공연</a>
+												<ul>
+													<li><a href="#">음악</a></li>
+													<li><a href="#">댄스</a></li>
+													<li><a href="#">밴드</a></li>
+													<li><a href="#">연극&뮤지컬</a></li>
+													<li><a href="#">마술</a></li>
+													<li><a href="#">기타</a></li>
+													<li><a href="#">피아노</a></li>
+													<li><a href="#">버스킹</a></li>
+													<li><a href="#">아카펠라</a></li>
+													<li><a href="#">힙합</a></li>
+												</ul>
+											<li>
+												<a href="#">봉사</a>
+												<ul>
+													<li><a href="#">교육봉사</a></li>
+													<li><a href="#">환경보호</a></li>
+													<li><a href="#">벽화그리기</a></li>
+													<li><a href="#">고양이</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="#">자기계발</a>
+												<ul>
+													<li><a href="#">문화교류</a></li>
+													<li><a href="#">영어회화</a></li>
+													<li><a href="#">코딩</a></li>
+													<li><a href="#">아이디어&창작</a></li>
+												</ul>
+											<li>
+											<li>
+												<a href="#">취미</a>
+												<ul>
+													<li><a href="#">예술</a></li>
+													<li><a href="#">그림</a></li>
+													<li><a href="#">손글씨</a></li>
+													<li><a href="#">영화</a></li>
+													<li><a href="#">와인</a></li>
+													<li><a href="#">게임</a></li>
+													<li><a href="#">여행</a></li>
+												</ul>
+											<li>		
+											<li>
+												<a href="#">인문과학</a>
+												<ul>
+													<li><a href="#">인문학</a></li>
+													<li><a href="#">토론</a></li>
+													<li><a href="#">국제이슈</a></li>
+													<li><a href="#">뇌과학</a></li>
+													<li><a href="#">생태탐사</a></li>
+													<li><a href="#">인권</a></li>
+													<li><a href="#">사회참여</a></li>
+												</ul>
+											<li>									
+											<li>
+												<a href="#">종교</a>
+												<ul>
+													<li><a href="#">가톨릭</a></li>
+													<li><a href="#">기독교</a></li>
+													<li><a href="#">불교</a></li>
+													<li><a href="#">원불교</a></li>
+													<li><a href="#">세계선교</a></li>
+												</ul>
+											<li>		
+											<li>
+												<a href="#">체육</a>
+												<ul>
+													<li><a href="#">축구&풋살</a></li>
+													<li><a href="#">농구</a></li>
+													<li><a href="#">야구</a></li>
+													<li><a href="#">활</a></li>
+													<li><a href="#">배드민턴</a></li>
+													<li><a href="#">자전거</a></li>
+													<li><a href="#">실내운동</a></li>
+													<li><a href="#">수영</a></li>
+													<li><a href="#">탁구</a></li>
+												</ul>
+											<li>	
+										</ul>
+									</li>
+									<li><a href="검색하기.html">검색하기</a></li>
+									<li class="break"><a href="평가하기.html">평가하기</a></li>
+									<li><a href="로그인.html">로그인</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper">
+					<div class="container" id="main">
+						
+						<input type="text" id="myInput" onkeyup="myFunction()" placeholder="동아리명을 입력해주세요...">
+						<ul id="myUL">
+							<li><a href="ALC.html">ALC</a></li>
+							<li><a href="ATP.html">ATP</a></li>
+							<li><a href="CCC.html">CCC</a></li>
+							<li><a href="ECS.html">ECS</a></li>
+							<li><a href="ENM.html">ENM</a></li>
+							<li><a href="ENTHES.html">ENTHES</a></li>
+							<li><a href="FC엘리제.html">FC엘리제</a></li>
+							<li><a href="IVF.html">IVF</a></li>
+							<li><a href="JASS.html">JASS</a></li>
+							<li><a href="JOY.html">JOY</a></li>
+							<li><a href="KUBC.html">KUBC</a></li>
+							<li><a href="KUBT.html">KUBT</a></li>
+							<li><a href="KUCC.html">KUCC</a></li>
+							<li><a href="KUDT.html">KUDT</a></li>
+							<li><a href="KULAX.html">KULAX</a></li>
+							<li><a href="KURC.html">KURC</a></li>
+							<li><a href="KURP.html">KURP</a></li>
+							<li><a href="KUSA.html">KUSA</a></li>
+							<li><a href="KUSEP.html">KUSEP</a></li>
+							<li><a href="LECA.html">LECA</a></li>
+							<li><a href="LoGS.html">LoGS</a></li>
+							<li><a href="SFC.html">SFC</a></li>
+							<li><a href="TERRA.html">TERRA</a></li>
+							<li><a href="TTP.html">TTP</a></li>
+							<li><a href="UNSA.html">UNSA</a></li>
+							<li><a href="거의격월간몰라도되는데.html">거의격월간몰라도되는데</a></li>
+							<li><a href="고고쉼.html">고고쉼</a></li>
+							<li><a href="고대농악대.html">고대농악대</a></li>
+							<li><a href="고대문학회.html">고대문학회</a></li>
+							<li><a href="고대바둑사랑.html">고대바둑사랑</a></li>
+							<li><a href="고란도란.html">고란도란</a></li>
+							<li><a href="고전기타부.html">고전기타부</a></li>
+							<li><a href="고집.html">고집</a></li>
+							<li><a href="고풋.html">고풋</a></li>
+							<li><a href="관악부.html">관악부</a></li>
+							<li><a href="관현악단.html">관현악단</a></li>
+							<li><a href="관현악부.html">관현악부</a></li>
+							<li><a href="국악연구회.html">국악연구회</a></li>
+							<li><a href="궁도회.html">궁도회</a></li>
+							<li><a href="그루터기.html">그루터기</a></li>
+							<li><a href="그림마당.html">그림마당</a></li>
+							<li><a href="극예술연구회.html">극예술연구회</a></li>
+							<li><a href="노래얼.html">노래얼</a></li>
+							<li><a href="농구연구회.html">농구연구회</a></li>
+							<li><a href="뇌의주름.html">뇌의주름</a></li>
+							<li><a href="뉴런.html">뉴런</a></li>
+							<li><a href="돌빛.html">돌빛</a></li>
+							<li><a href="로타랙트.html">로타랙트</a></li>
+							<li><a href="미스디렉션.html">미스디렉션</a></li>
+							<li><a href="백구회.html">백구회</a></li>
+							<li><a href="불교학생회.html">불교학생회</a></li>
+							<li><a href="불아스.html">불아스</a></li>
+							<li><a href="사람과사람.html">사람과사람</a></li>
+							<li><a href="서화회.html">서화회</a></li>
+							<li><a href="소믈리에.html">소믈리에</a></li>
+							<li><a href="소울메이트.html">소울메이트</a></li>
+							<li><a href="수레바퀴.html">수레바퀴</a></li>
+							<li><a href="수호회.html">수호회</a></li>
+							<li><a href="스쿼시동아리.html">스쿼시동아리</a></li>
+							<li><a href="아마추어축구부.html">아마추어축구부</a></li>
+							<li><a href="열두루달.html">열두루달</a></li>
+							<li><a href="예수전도단.html">예수전도단</a></li>
+							<li><a href="예술비평연구회.html">예술비평연구회</a></li>
+							<li><a href="운화회.html">운화회</a></li>
+							<li><a href="원불교학생회.html">원불교학생회</a></li>
+							<li><a href="유스호스텔.html">유스호스텔</a></li>
+							<li><a href="젊은예수.html">젊은예수</a></li>
+							<li><a href="중국연구회.html">중국연구회</a></li>
+							<li><a href="철학마을.html">철학마을</a></li>
+							<li><a href="캘리쿠.html">캘리쿠</a></li>
+							<li><a href="크림슨.html">크림슨</a></li>
+							<li><a href="탁구사랑회.html">탁구사랑회</a></li>
+							<li><a href="택견한울.html">택견한울</a></li>
+							<li><a href="팝콘.html">팝콘</a></li>
+							<li><a href="평화나비.html">평화나비</a></li>
+							<li><a href="한국근현대사연구회.html">한국근현대사연구회</a></li>
+							<li><a href="한국사회연구회.html">한국사회연구회</a></li>
+							<li><a href="한국화회.html">한국화회</a></li>
+							<li><a href="한량회.html">한량회</a></li>
+							<li><a href="한일문화연구회.html">한일문화연구회</a></li>
+							<li><a href="합창단.html">합창단</a></li>
+							<li><a href="호영회.html">호영회</a></li>
+							<li><a href="호우회.html">호우회</a></li>
+							<li><a href="호진회.html">호진회</a></li>
+						</ul>
+						  
+					</div>
+				</div>
+				
+				<script>				
+					function myFunction() {
+						var input, filter, ul, li, a, i, txtValue;
+						input = document.getElementById("myInput");
+						filter = input.value.toUpperCase();
+						ul = document.getElementById("myUL");
+						li = ul.getElementsByTagName("li");
+						for (i = 0; i < li.length; i++) {
+							a = li[i].getElementsByTagName("a")[0];
+							txtValue = a.textContent || a.innerText;
+							if (txtValue.toUpperCase().indexOf(filter) > -1) {
+								li[i].style.display = "";
+							} else {
+								li[i].style.display = "none";
+							}
+						}
+					}
+				</script>
+		</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
