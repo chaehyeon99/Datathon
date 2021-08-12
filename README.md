@@ -82,7 +82,7 @@
 	<p>(3) 동아리 특징 설문 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 협업 -> 각 분과 대표자들을 통해 설문조사 시행<br/>
 	   - 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘), 동아리 특성 시각화에 사용<br/>
-		- [동아리 시각화 확인하러 가기](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
+	[동아리 시각화 확인하러 가기](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
 	   - 파일명 : practice.csv <br/>
 		
 		
@@ -112,7 +112,7 @@
     	- 높은 유사도를 가지는 상위 5개의 동아리 출력 및 저장 </p>
     
   	<p>(3) 검색 시 동아리 선호도 기반 유사 동아리 추천 (동아리 기준) <br/>
-	![image](https://user-images.githubusercontent.com/76843676/129179163-1b628b7d-5fbc-47d7-abe4-09d5e0d48dec.png)
+	<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG">
 	
     	- 협업필터링 추천 알고리즘 : 기존 사용자의 행동 정보를 분석하여, 해당 사용자와 비슷한 성향의 사용자들이 기존에 좋아했던 항목을 추천<br>
     	- 고객 기반 vs 아이템기반 : 고객기반 협업 필터링은 메모리 사용이 크고, 타 모델보다 낮은 정확도를 가졌기 때문에 추천 모델에서 제외함(일반적으로 비슷한 고객보다 아이템을 토대로 추천하는 것이 정확도가 높기 때문)<br>
