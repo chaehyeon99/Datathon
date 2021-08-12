@@ -149,7 +149,7 @@
 	    - 생성된 데이터 : result_item_based.csv, 사용한 데이터 : contents.csv , ratings.csv
 
   	<p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
-  	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129231214-82ac2cec-6585-49a3-a0fd-d27843cc6ca0.png"> <br/>
+  	<img width="168" alt="작은버전" src="https://user-images.githubusercontent.com/76843676/129231631-3a76c363-2063-478c-b95e-214b5bd5377a.PNG"> <br/>
   	- Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환 <br/>
 	-[R] KoNLP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
 	- barplot, wordcloud 이용하여 시각화 진행  <br/>
@@ -159,7 +159,7 @@
 	     - 사용한 데이터 : 동아리 소개책자 정보 수합.csv
 
   	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
-	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG"><br/>
+	<img width="450" alt="마지막이길제발" src="https://user-images.githubusercontent.com/76843676/129231813-91d3f9f6-5839-4c37-a7c7-a4a2b232a621.PNG"><br/>
   	- 사용한 잠재요인 기반 모델  <br/>
    	1. SVD : 동아리-사용자 평점 행렬을 분해하여 구한 Latent Factor을 통해 사용자가 평점을 내리지 않은 동아리의 평점을 예측한다<br/>
    	2. SVD ++ : SVD에 implicit feedback 까지 반영<br/>
