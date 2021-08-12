@@ -59,7 +59,7 @@
 ```
 	
 
-*보러가기: [웹 프로토타입](https://github.com/hbkimhbkim/Portfolio_ML/blob/master/bankchurn/)*
+*보러가기: [웹 프로토타입](https://github.com/chaehyeon99/Datathon/tree/main/%EC%9B%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/)*
       
 ***
 
@@ -184,4 +184,4 @@
 
 - 기대효과 및 발전 가능성 
 
-*보러가기: [웹 프로토타입](https://github.com/hbkimhbkim/Portfolio_ML/tree/master/potatosnack)*
+*보러가기: [웹 프로토타입](https://github.com/chaehyeon99/Datathon/tree/main/%EC%9B%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/)*
