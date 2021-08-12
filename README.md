@@ -66,7 +66,7 @@
 
   	<p>(1) 동아리 탐색 키워드 데이터 <br/>
 	   - 수집 출처 : 2021 고려대학교 중앙동아리 소개집<br/>
-	   -*보러가기: [동아리 탐색 키워드 데이터](https://github.com/chaehyeon99/Datathon/blob/67ad0a2b0bf35df1aadb1eb1cfa8c756b7aa3f64/%EC%82%AC%EC%9A%A9%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/%EB%8F%99%EC%95%84%EB%A6%AC%20%EC%A0%95%EB%B3%B4%20DB%20(%EA%B0%80%EC%83%81).xlsx)
+	   -*보러가기: [동아리 탐색 키워드 데이터](https://github.com/chaehyeon99/Datathon/사용한 데이터/동아리 정보 DB (가상).xlsx)*
 
 	<p>(2) 동아리 선호 평점 데이터 <br/>
 	   - 수집 출처 : 직접 입력 <br/>
