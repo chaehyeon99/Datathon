@@ -45,7 +45,7 @@
   	<p>(1) 동아리 탐색 키워드 데이터 <br/>
 	   - 수집 출처 : 2021 고려대학교 중앙동아리 소개집<br/>
 
-![image](https://user-images.githubusercontent.com/76843676/129167190-f8fe04ee-ef79-45f8-9c42-d9394311c366.png)
+![image](https://user-images.githubusercontent.com/76843676/129167795-65395fbb-4d51-4939-b9b0-16dd5e4730ee.png)
 	   
       * 매출 추정 과정<br/>
           프로세스 : 상권설정 --> 상권정보 추출, 입력 --> 매출, 수익성 분석 --> 우량입지 추출 / 관리
