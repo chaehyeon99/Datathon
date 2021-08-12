@@ -188,7 +188,7 @@
 ***
 <h2> #4. 웹 프로토타입 구현 및 진행 과정 </h2>
 
-- 기대효과 
+- Summary
 
 	<p>고려대학교 학생들을 대상으로 현재 교내 동아리 만족도에 대한 설문조사 수행 (N=50)</br>
     	- 해당 플랫폼이 필요하다 -> 51%, 매우필요하다 -> 26.5%<br/> 
@@ -207,8 +207,6 @@
  4. 동아리 지원 절차 도움 서비스 만들기
   
 
-*보러가기: [웹 프로토타입](https://github.com/chaehyeon99/Datathon/tree/main/%EC%9B%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/)*
-
-- 
+*보러가기: [웹 프로토타입](https://github.com/chaehyeon99/Datathon/tree/main/%EC%9B%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/)*<br/>
 *보러가기: [진행과정](https://github.com/chaehyeon99/Datathon/tree/main/%EC%A7%84%ED%96%89%20%EA%B3%BC%EC%A0%95)* <br/>
 *보러가기: [참고자료](https://github.com/chaehyeon99/Datathon/tree/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C)*
