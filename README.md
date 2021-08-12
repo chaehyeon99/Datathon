@@ -21,6 +21,9 @@
 		"사용자에게 딱 맞는 동아리를 추천해주는 동아리 검색 플랫폼이 필요하다!!"
 			
 			
+
+ - Summary
+			
  - 프로젝트 목적 및 효과
  	<p>(1) 흩어져 있는 동아리에 대한 정보를 수집하여 하나의 플랫폼으로 정리한다.</p>
 	<p>(2) 원하는 동아리 탐색을 빠르게 할 수 있도록 돕는다.</p>
@@ -62,7 +65,7 @@
 <h2> #2. 데이터 수집 과정 및 EDA </h2>
 
 - Background
- <p> 동아리 연합회와의 협업으로 데이터수집, Text Mining, ANOVA, python 데이터 시각화 --> 감자과자 시장분석</p>
+ <p> 동아리 연합회와의 협업으로 데이터수집, Text Mining, ANOVA, python 데이터 시각화 --> 전처리 및 EDA 진행 /p>
 
 - Summary
 
@@ -80,7 +83,7 @@
 	<p>(3) 동아리 특징 설문 데이터 <br/>
 	   - 수집 출처 : 고려대학교 동아리 연합회 협업 -> 각 분과 대표자들을 통해 설문조사 시행<br/>
 	   - 개인 특성 & 동아리 정보 기반 동아리 추천(머신러닝 분류 알고리즘), 동아리 특성 시각화에 사용<br/>
-		- [동아리 시각화 확인하러 가기](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb)
+		- [동아리 시각화 확인하러 가기](https://github.com/chaehyeon99/Datathon/blob/main/Code/%EC%84%A4%EB%AC%B8%EC%A1%B0%EC%82%AC%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20EDA.ipynb/) <br/>
 	   - 파일명 : practice.csv <br/>
 		
 		
