@@ -112,8 +112,8 @@
 - Background
  <p>  1. Contents-based Filtering과 Item-based Collaborative Filtering을 이용한 검색 시 유사 동아리 추천  <br/>
  2. Text Mining, NLP, wordcloud  <br/>
- 3. SVD, SVD++, NMF(Non-negative Matrix Factorizagion) <br/>
- 4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightbm, catboost) </p> 
+ 3. SVD, SVD++, NMF(Non-negative Matrix Factorization) <br/>
+ 4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightgbm, catboost) </p> 
  
  
 *보러가기: [code](https://github.com/chaehyeon99/Datathon/tree/main/Code/)* <br/>
@@ -153,17 +153,17 @@
 	- barplot, wordcloud 이용하여 시각화 진행  <br/>
 	
 
-          - 파일명 : LogReg.R , anova.R , textmining.R  
+          - 파일명 :  textmining.R  
 
   	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
 	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG"><br/>
   	- 사용한 잠재요인 기반 모델  <br/>
    	1. SVD : 동아리-사용자 평점 행렬을 분해하여 구한 Latent Factor을 통해 사용자가 평점을 내리지 않은 동아리의 평점을 예측한다<br/>
    	2. SVD ++ : SVD에 implicit feedback 까지 반영<br/>
-   	3. NMF(Non-negative Matrix Factorizagion) : 행렬 분해시, 음수를 포함하지 않는 행렬이 되지 않도록 함. <br/>
-  	-단순 회귀 앙상블 추천 시스템이 각 유저에게 가장 개인화된 경험을 제공할 수 있었다<br/>
+   	3. NMF(Non-negative Matrix Factorization) : 행렬 분해시, 음수를 포함하지 않는 행렬이 되지 않도록 함. <br/>
+  	-수치평균, 단순회귀, gbm 세 방법으로 앙상블 했을 때 그 중 단순회귀가 가장 사용자별로 추천 결과가 의미있어 채택하였다.<br/>
 	
-            - 파일명 : Collaborative_Filtering.ipynb 
+            - code 파일명 : Collaborative_Filtering.ipynb 
 
   	<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
   	- train set 과 test set을 4:1 로 분리 <br/>
@@ -172,10 +172,11 @@
   	- KNN 모델 학습 및 테스트<br/>
   	- Weighted KNN 모델 학습 및 테스트 <br/>
   	- Random Forest 모델 학습 및 테스트 <br/>
-  	- Boosting 계열 모델(gbm, adaboost, lightbm, catboost)학습 및 테스트<br/>
+  	- Boosting 계열 모델(gbm, adaboost, lightbgm, catboost)학습 및 테스트<br/>
   	- 최종적으로 catboost 모델 accuracy는 약 0.76으로, 가장 좋은 성능을 보였다<br/>
 	
-             - 파일명 : 설문조사 분류 코드.ipynb 
+             - code 파일명 : 설문조사 분류 코드.ipynb , LogReg.R , anova.R
+	     - 생성된 데이터 : X_test, X_train, data_for_EDA, group_mean, y_test, y_train
 
 
 		
