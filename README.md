@@ -180,8 +180,12 @@
 
 
 ***
-<h2> #4. 웹 프로토타입 구현</h2>
+<h2> #4. 웹 프로토타입 구현 및 진행 과정 </h2>
 
 - 기대효과 및 발전 가능성 
 
 *보러가기: [웹 프로토타입](https://github.com/chaehyeon99/Datathon/tree/main/%EC%9B%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85/)*
+
+- 
+*보러가기: [진행과정](https://github.com/chaehyeon99/Datathon/tree/main/%EC%A7%84%ED%96%89%20%EA%B3%BC%EC%A0%95)*
+*보러가기: [참고자료](https://github.com/chaehyeon99/Datathon/tree/main/%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C)*
