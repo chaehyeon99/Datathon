@@ -133,7 +133,7 @@
 
 
         -  code 파일명 : contents_based.ipynb 
-	    - 생성된 데이터 : result_contents_based.csv , 사용한 데이터 : contents.csv
+	     - 생성된 데이터 : result_contents_based.csv , 사용한 데이터 : contents.csv
     
   	<p>(3) 검색 시 동아리 선호도 기반 유사 동아리 추천 (동아리 기준) <br/>
 	<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG"> <br/>
@@ -146,7 +146,7 @@
 	
 	
           - code 파일명 : Collaborative_Filtering.ipynb  
-	  - 생성된 데이터 : result_item_based.csv, 사용한 데이터 : contents.csv , rating.csv
+	    - 생성된 데이터 : result_item_based.csv, 사용한 데이터 : contents.csv , ratings.csv
 
   	<p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
   	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129189423-3bb03cf6-e342-4499-bd47-57d467ec8281.PNG"> <br/>
@@ -156,7 +156,7 @@
 	
 
           - code 파일명 :  textmining.R  
-	   - 사용한 데이터 : 동아리 소개책자 정보 수합.csv
+	     - 사용한 데이터 : 동아리 소개책자 정보 수합.csv
 
   	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
 	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG"><br/>
@@ -167,7 +167,7 @@
   	-수치평균, 단순회귀, gbm 세 방법으로 앙상블 했을 때 그 중 단순회귀가 가장 사용자별로 추천 결과가 의미있어 채택하였다.<br/>
 	
             - code 파일명 : Collaborative_Filtering.ipynb 
-	    - 생성된 데이터 : result_mean.csv, result_regression.csv, result_gbm.csv 사용한 데이터 : rating.csv, contents.csv
+	    - 생성된 데이터 : result_mean.csv, result_regression.csv, result_gbm.csv 사용한 데이터 : ratings.csv, contents.csv
 
   	<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
   	- train set 과 test set을 4:1 로 분리 <br/>
@@ -180,7 +180,7 @@
   	- 최종적으로 catboost 모델 accuracy는 약 0.76으로, 가장 좋은 성능을 보였다<br/>
 	
              - code 파일명 : 설문조사 분류 코드.ipynb , LogReg.R , anova.R
-	     - 생성된 데이터 : X_test.csv, X_train.csv, data_for_EDA.csv , group_mean.csv, y_test.csv, y_train.csv , 사용한 데이터 : practice.csv, practice1.csv, practice2.csv
+	       - 생성된 데이터 : X_test.csv, X_train.csv, data_for_EDA.csv , group_mean.csv, y_test.csv, y_train.csv , 사용한 데이터 : practice.csv, practice1.csv, practice2.csv
 
 
 		
