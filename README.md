@@ -111,9 +111,11 @@
  <p>  1. Contents-based Filtering과 Item-based Collaborative Filtering을 이용한 검색 시 유사 동아리 추천  <br/>
  2. Text Mining, NLP, wordcloud  <br/>
  3. SVD, SVD++, NMF(Non-negative Matrix Factorizagion) <br/>
- 4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightbm, catboost) <br/>
- </p> 
+ 4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightbm, catboost) </p> 
+ 
+ 
 *보러가기: [code](https://github.com/chaehyeon99/Datathon/tree/main/Code/)* <br/>
+
 *보러가기: [생성된 데이터](https://github.com/chaehyeon99/Datathon/tree/main/%EC%83%9D%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0/)*
 
  
