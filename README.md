@@ -4,8 +4,8 @@
 
 ***
 <h2> #1. 프로젝트 소개 </h2> 
- -  <p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
- -  <p>주제 선정 배경 </p>
+ - <p>고려대학교 동아리 추천 시스템 개발 프로젝트 </p>
+ - <p>주제 선정 배경 </p>
  
 ```
  고려대학교 학생들을 대상으로 현재 교내 동아리 만족도에 대한 설문조사 수행 
@@ -126,7 +126,6 @@
 Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동아리 추천에 함께 사용한 이유 <br/>
 
 ---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함
-
 ```
 	<p>(4) 키워드별 2021 KU 동아리 트랜드<br/>
     	- Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환<br/>
