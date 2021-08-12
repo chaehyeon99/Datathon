@@ -113,8 +113,7 @@
  3. SVD, SVD++, NMF(Non-negative Matrix Factorizagion) <br/>
  4. Logistic Regression, Decision Tree, KNN , Weighted KNN , Random Forest ,Boosting 계열 모델(gbm, adaboost, lightbm, catboost) <br/>
  </p> 
- *보러가기: [Code](https://github.com/chaehyeon99/Datathon/tree/main/Code/)*
-
+ *보러가기: [Code](https://github.com/chaehyeon99/Datathon/tree/main/Code)*
 - Summary
 
 	<p>(1) 키워드를 이용한 동아리 탐색</br>
@@ -122,7 +121,9 @@
     
 	<p>(2) 검색 시 동아리 키워드 기반 유사 동아리 추천 <br/>
     	- 키워드 indicator 변수를 통해 동아리 간 코사인 유사도를 구함  <br/>
-    	- 높은 유사도를 가지는 상위 5개의 동아리 출력 및 저장 </p>
+    	- 높은 유사도를 가지는 상위 5개의 동아리 출력 및 저장 <br/>
+	
+	- 파일명 : contents-based.ipynb <br/></p>
     
   	<p>(3) 검색 시 동아리 선호도 기반 유사 동아리 추천 (동아리 기준) <br/>
 	<img width="824" alt="추천" src="https://user-images.githubusercontent.com/76843676/129180254-1d2cb572-e1a9-4c7d-a080-78a61daaaf6b.PNG"> <br/>
@@ -131,13 +132,17 @@
     	- 기존 평점 데이터를 행-동아리명 , 열 - 사용자, 데이터 - 평점 값 을 가지는 데이터셋으로 변환<br/>
     	- 사용자가 평점을 매긴 데이터를 토대로 동아리간 코사인 유사도 계산 후 가장 높은 동아리 출력 및 저장 <br/>
 	- Contents-based Filtering과 Item-based Collaborative Filtering을 검색 시 동아리 추천에 함께 사용한 이유 <br/>
-	---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함</p>
+	---> Collaborative Filtering만을 사용할 경우, cold start 문제 (평점이 없을 경우 추천이 어려움), long-tail 문제(인기 있는 동아리에 대해서만 추천하는 경향이 있음) 등이 발생할 수 있기 때문에 hybrid 추천시스템과 같이 두 추천시스템 결과를 모두 보여주도록 함<br/>
+	
+	- 파일명 : Collaborative_Filtering.ipynb  </p>
 
   	<p>(4) 키워드별 2021 KU 동아리 트랜드 <br/>
-  	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129189423-3bb03cf6-e342-4499-bd47-57d467ec8281.PNG">
+  	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129189423-3bb03cf6-e342-4499-bd47-57d467ec8281.PNG"> <br/>
   	- Text Mining : [R] tm 패키지 사용하여 동아리 텍스트 정보-> PlainTextDocument 리스트 구조로 변환 <br/>
 	-[R] KoLNP 패키지를 사용하여 한글 어근 추출, 불용어제거, 단어문서행렬처리 <br/>
-	- barplot, wordcloud 이용하여 시각화 진행  </p>
+	- barplot, wordcloud 이용하여 시각화 진행  <br/>
+	
+	- 파일명 : LogReg.R , anova.R , textmining.R  </p>
 
   	<p>(5) 사용자 선호도 기반 동아리 추천 <br/>
 	<img width="779" alt="new" src="https://user-images.githubusercontent.com/76843676/129188373-33be9e87-6111-4921-9d7d-7b57961a0d0a.PNG"><br/>
@@ -145,7 +150,9 @@
    	1. SVD : 동아리-사용자 평점 행렬을 분해하여 구한 Latent Factor을 통해 사용자가 평점을 내리지 않은 동아리의 평점을 예측한다<br/>
    	2. SVD ++ : SVD에 implicit feedback 까지 반영<br/>
    	3. NMF(Non-negative Matrix Factorizagion) : 행렬 분해시, 음수를 포함하지 않는 행렬이 되지 않도록 함. <br/>
-  	-단순 회귀 앙상블 추천 시스템이 각 유저에게 가장 개인화된 경험을 제공할 수 있었다</p>
+  	-단순 회귀 앙상블 추천 시스템이 각 유저에게 가장 개인화된 경험을 제공할 수 있었다<br/>
+	
+	- 파일명 : Collaborative_Filtering.ipynb  </p>
 
   	<p>(6) 개인특성 & 동아리 정보 기반 동아리 추천 <br/>
   	- train set 과 test set을 4:1 로 분리 <br/>
@@ -155,7 +162,9 @@
   	- Weighted KNN 모델 학습 및 테스트 <br/>
   	- Random Forest 모델 학습 및 테스트 <br/>
   	- Boosting 계열 모델(gbm, adaboost, lightbm, catboost)학습 및 테스트<br/>
-  	- 최종적으로 catboost 모델 accuracy는 약 0.76으로, 가장 좋은 성능을 보였다</p>
+  	- 최종적으로 catboost 모델 accuracy는 약 0.76으로, 가장 좋은 성능을 보였다<br/>
+	
+	- 파일명 : 설문조사 분류 코드.ipynb </p>
 
 
 		
